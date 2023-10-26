@@ -1,1 +1,3 @@
-# NLP-Project-
+This project involves an analysis and processing of text covering important aspects. It starts by extracting text from a PDF document using the pyPDF2 library. Then follows a series of steps. These include preparing the text breaking it into tokens, removing words thoroughly studying the distribution of tokens and creating a word cloud to visualize key terms and performing Part of Speech (PoS) tagging using a Hidden Markov Model trained on the Brown Corpus.
+
+Furthermore the program creates a bi-gram table of probabilities for the largest chapter in the book while also including stop words. This table is then used in a "Shannon game" to fill-in blank parts within a chapter enabling a thorough assessment of how accurately the completed text aligns with the original content. This project serves as a showcase of techniques for processing  natural language and analyzing text, offering valuable insights, into the internal mechanisms behind the given text.
